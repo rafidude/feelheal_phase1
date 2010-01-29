@@ -1,0 +1,19 @@
+
+
+<% months = Date::MONTHNAMES %>
+<% (x = months.map { |m| [m,months.index(m)] } ).shift %>
+
+
+<% @day = (1..31) %>
+
+<%= f.cms_text_field :name %>
+
+<%= f.cms_text_field :language %>
+<%= f.cms_drop_down :month,
+  x,
+  :label => "Month" %>
+<%= f.cms_drop_down :day,
+  @day,:label => "Day" %>
+<%= f.cms_text_editor :quote %>
+<%= f.cms_text_field :quote_by %>
+<%= f.cms_text_editor :thought_matter %>

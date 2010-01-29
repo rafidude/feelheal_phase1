@@ -1,0 +1,17 @@
+<h1> <%= @today.strftime("%B") %> <%= @today.day %></h1><br/>
+<% unless @thought.nil? %>
+  <p class="text">
+    <i><%= @thought.quote %></i>
+    <br/>
+    --<i><%= @thought.quote_by %></i>
+  </p>
+  <br/>
+  <div class="text">
+    <%= @thought.thought_matter %>
+  </div>
+<% else %>
+  <div class="text">
+    No thoughts created for this day.
+  </div>
+<% end %>
+

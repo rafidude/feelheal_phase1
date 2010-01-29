@@ -1,0 +1,1491 @@
+/* @group Reset */
+
+html, div, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*body {
+	line-height: 1;
+}*/
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+/* @group Main */
+
+/* ----------------------------------------------
+
+	Theme Name : OfficeSpace
+	Version : 1.0
+	Author : Chris Seymour
+	Author URI : http://www.c5mix.com/
+
+ ------------------------------------------------ */
+
+/* ----------------------------------------------
+   HTML ELEMENTS
+
+Setting the font-size property to 62.5% in body tag makes 1em equal to 10px. This lets you use em easily as you can find out the font-size in pixels from em values.
+------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	margin: 1px 0;
+	/*background-color:#c5c4c4;*/
+	/*font-size: medium;*/
+	/*font-size: 83.4%;*/
+	font-size: 69.5%;
+	background-color: whitesmoke;
+}
+
+a img {
+	border: 0
+}
+
+/* ------------------------------------------
+   LAYOUT
+------------------------------------------- */
+
+#page {
+	/*background:url(images/site-bg.png) repeat-y center;*/
+	width: 974px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+#header {
+	width: 972px;
+	margin: 0 auto;
+	padding: 0 0px;
+	height: 153px;
+	/*background:url(images/NewBannerDeepC5.jpg) no-repeat center top;*/
+	position: relative;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif !important;
+}
+
+a#logo {
+	font-size: 20px;
+	padding: 0px 0 0;
+	display: inline-block;
+	width: 150px;
+	height: 115px;
+	/* customize_header_logo */ color: #000;
+	/*customize_header_logo */
+	text-decoration: none;
+}
+
+#header-top {
+	position: absolute;
+	right: 0px;
+	top: 125px;
+	width: 972px;
+	padding-left: 25px;
+	/*padding-top: 50px;*/
+	/*text-align:right;*/
+}
+
+#header-top form {
+	background: none!important;
+	border: none!important;
+	padding: 10px 0!important;
+	margin: 0!important;
+}
+
+/*  Main Navigation  */
+
+.leftnav {
+	margin: 0px 4px 0px 6px;
+/*border-right-width: 1px;
+	border-right-color: black;
+	border-right-style: solid;*/
+}
+
+#nav {
+	width: 972px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#nav ul {
+	margin: 0 20px;
+	padding: 0;
+}
+
+#nav ul li {
+	margin: 0;
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+	padding: 1px 1px 0;
+}
+
+#nav ul li a {
+	color: #fff;
+	display: block;
+	padding: 10px 15px 9px;
+	font-size: .8em;
+	font-weight: bold;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+
+#nav ul li:hover, #page #nav ul li.nav-selected {
+	border-bottom: none!important;
+	padding: 0;
+}
+
+/* Dropdown Menus */
+
+#nav li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 180px;
+	margin: 0 0 0 -1px;
+	border-top: none!important;
+	z-index: 10;
+}
+
+#nav li li {
+	font-size: 1em;
+	line-height: 1.2em;
+	float: none;
+	padding: 0;
+	text-transform: none;
+}
+
+#nav li li:hover {
+	background: transparent !important;
+	border: none!important;
+	padding: 0;
+}
+
+#nav ul li ul li.nav-selected {
+	border: none!important;
+}
+
+#nav li li a, #nav li li a:visited {
+	padding: 10px 15px;
+	display: block;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left: auto;
+}
+
+/* Feature */
+
+#feature {
+	width: 972px;
+	margin: 0 auto;
+	border-left: none!important;
+	border-right: none!important;
+}
+
+#feature img {
+	display: block;
+}
+
+/* Title */
+
+#title {
+	padding: 6px 0px 0px 10px;
+	/*border-bottom: solid 1px rgb(200,200,200);*/
+	margin: 0px 1px 0px 0px;
+	background-color: white;
+	height: 24px !important;
+}
+
+h1 {
+	/*color: red;*/
+	font-size: 1.4em;
+	margin-left: 0px;
+	color: rgb(131,138,168);
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+/*#title h1 span {
+	/*border-left:1px dotted;
+	bottom: 0px;
+	font-size: 1.4em;
+	margin-left: 0px;
+	padding: 0px 0px;
+	position: relative;
+}*/
+
+/* Sections */
+
+#sections {
+	overflow: hidden;
+	width: 972px;
+	margin: 0 auto;
+}
+
+#sections h3, #sidebar h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sections h3 {
+	color: #fff;
+	margin-top: 0;
+	padding: 20px 8px 6px;
+}
+
+/* Wrapper */
+
+/*#wrapper {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	background: url(images/sidebar-bg.jpg) no-repeat;
+	background-position: 650px 0;
+
+}*/
+#home #wrapper, #full #wrapper, #one_over_three #wrapper, #one_over_two #wrapper {
+	background: none;
+}
+
+#left_sidebar #wrapperleft {
+	background-position: 10px 0;
+}
+
+#sidebar .inner {
+	padding: 20px;
+}
+
+/* Content */
+
+/* Breadcrumbs */
+
+#breadcrumbs {
+	border-bottom: 1px dotted;
+	margin-bottom: 1.5em;
+	padding-bottom: 1em;
+}
+
+#breadcrumbs p {
+	margin-bottom: 0!important;
+	padding: 0;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+
+}
+
+#home #sidebar {
+
+}
+
+/* Sub Navigation */
+
+ul.sub-nav {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.1em;
+}
+
+ul.sub-nav li {
+	border-bottom: 1px dotted #909090;
+}
+
+ul.sub-nav li a {
+	text-decoration: none;
+	display: block;
+	padding: 3px 2px;
+}
+
+ul.sub-nav li.nav-selected a {
+	color: #000;
+	font-weight: bold;
+}
+
+ul.sub-nav li li {
+	border-bottom: none!important;
+	color: #777;
+	font-size: 0.9em;
+}
+
+ul.sub-nav li ul {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+ul.sub-nav li li a {
+	padding: 0!important;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 952px;
+	margin: 0 auto;
+	padding: 10px;
+	
+
+/*height:20px;*/
+	color: black;
+	background-color: #696969;
+}
+
+#footer h5 {
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	margin: 15px 0 0;
+}
+
+#news_article #content p.news-desc {
+	font-size: 1.2em;
+}
+
+#footer p {
+	margin: 3px 0 0;
+	text-align: center;
+	font-size: 10px;
+	line-height: 150%;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+
+}
+
+#footer ul {
+
+}
+
+#footer ul li {
+
+}
+
+/* News Article */
+
+/* Form */
+
+#page form {
+	background-color: #F9F9F9;
+	border: 1px solid #EFEFEF;
+	padding: 15px;
+	margin-bottom: 1.5em;
+}
+
+#page form table {
+	margin-bottom: 0;
+}
+
+#page form table td {
+	border: 0;
+}
+
+form input.formBlockSubmitButton, form input.searchBlockSubmitButton {
+	height: 27px;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 3px 5px;
+	color: #FFF;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+form input, form textarea, form select {
+	padding: 3px;
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* alignment classes & additional classes*/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* Clearing */
+
+.clearboth {
+	clear: both;
+}
+
+.clear {
+	display: inline-block;
+}
+
+.clear:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+}
+
+/* customize_miscellaneous */
+
+/* customize_miscellaneous */
+
+/* @end */
+
+/* @group Verse */
+
+.verse pre span {
+	line-height: 1.75em !important;
+}
+
+.verse pre {
+	color: black;
+	display: table;
+	width: auto;
+	margin: 0 auto;
+	font-family: inherit !important;
+	line-height: 1.75em;
+	margin-top: 6px !important;
+	font-size: 1.2em;
+}
+
+.poemtitle {
+	/* see page 59 */
+	margin-top: 1.2em;
+	margin-bottom: 0;
+	font: bold 1em Verdana, "Lucida Grande", Lucida, sans-serif;
+	color: rgb(131,138,168);
+}
+
+/* @end */
+
+/* @group Rules */
+
+.ruleoutside {
+	background-image: url(/theme/images/rules/rule972_outside.gif);
+}
+
+/*.rule2u {
+	background-image: url(images/rules/rule972_2u.gif);
+}
+
+.rule2 {
+	background-image: url(images/rules/rule972_2.gif);
+}*/
+
+/*.rule3 {
+	background-image: url(images/rules/rule972_3.gif);
+}*/
+
+/*.rule4 {
+	background: url(images/rules/rule972_4.gif)
+}*/
+
+/*.rule2bottom {
+	background-image: url(images/rules/rule832_2.gif);
+}*/
+
+.rule2u {
+	background-image: url(/theme/images/rules/rule832_2u.gif);
+}
+
+.rule3 {
+	background-image: url(/theme/images/rules/rule832_3.gif);
+}
+
+.rule4 {
+	background: url(/theme/images/rules/rule832_4.gif)
+}
+
+.rule2 {
+	background-image: url(/theme/images/rules/rule832_2.gif);
+}
+
+/* @end */
+
+/* @group basic text */
+
+div.text {
+	/*width: 100%;*/
+	/*padding: 0px 15px 0px 3px;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	color: black;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 1.2em;
+	line-height: 2.4em;
+}
+
+.sans {
+	/*font-size: 1.2em;*/
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif !important;
+	margin-top: 1em !important;
+	text-indent: 0 !important;
+	/*font-size: 1.1em;*/
+}
+
+
+p {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	color: black;
+	margin-bottom: 0 !important;
+	line-height: 1.75em;
+	text-indent: 0 !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 1.2em;
+	/*word-spacing: 0.1em*/
+}
+
+p + p {
+	text-indent: 1.75em !important;
+	margin-top: 0 !important;
+}
+
+blockquote {
+	margin: 1em 3px 1em 1.75em !important;
+	padding: 0px;
+	line-height: inherit !important;
+	color: black;
+	font-family: inherit !important;
+	font-style: inherit;
+	font-size: inherit !important;
+}
+
+p.leftcol {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif !important;
+	font-size: 1em;
+	line-height: 2.5em !important;
+	text-indent: 0px !important;
+}
+
+p, ul, li {
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	/*font-size: 100%;*/
+	line-height: 1.75em;
+}
+
+li.tip {
+	list-style-position: inside !important;
+	list-style-type: circle;
+	padding-top: 8px;
+	font-family: inherit !important;
+	font-size: 1.2em;
+	color: black;
+}
+
+.noindent {
+	text-indent: 0px !important;
+}
+
+.indent {
+	text-indent: 1em;
+}
+
+/*p.ul {
+	line-height: inherit !important;
+	font-family: inherit !important;
+}*/
+
+.smallcaps {
+	font-variant: small-caps;
+	font-size: 80%;
+	line-height: 3em !important;
+	letter-spacing: +1.5px;
+	border-bottom: 1px rgb(200,200,200) solid;
+}
+
+#content {
+
+}
+
+h3 {
+	/*font-size: 110%;*/
+	font-family: normal Verdana, "Lucida Grande", Lucida, sans-serif;
+	color: rgb(0,82,148);
+	margin-top: .75em !important;
+	text-indent: 0 !important;
+	font-size: 1.1em;
+}
+
+h4 {
+	margin: .75em 0px .8em 0px;
+	font-family: bold 1.2em Verdana, "Lucida Grande", Lucida, sans-serif !important;
+	color: rgb(131,138,168);
+	text-indent: 0 !important;
+	font-size: 1em;
+}
+
+.icon {
+	background-color: rgb(131,138,168);
+	/*background-color: rgb(155,168,213);*/
+	/*background-color: <?=$ltblue?>;*/
+	background-image: url(/images/icons/bg_blank.gif);
+	background-repeat: no-repeat;
+	top: 6px;
+}
+
+/* @end */
+
+/* @group Fix Position Box */
+
+#onthispage {
+	border-top: solid 1px #b1b1b1;
+	border-bottom: solid 1px #b1b1b1;
+}
+
+#onthispage li, #onthispage li a {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: gray;
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+	text-indent: 0;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+
+#onthispage li {
+	border-top: solid 1px rgb(200,200,200);
+}
+
+#onthispage li {
+	text-indent: 0px;
+}
+
+#fixeddiv {
+	position: absolute;
+	width: 180px;
+	height: 50px;
+	right: 30px;
+	top: 100px;
+	padding: 16px;
+	background: #FFFFFF;
+	border: 2px solid #2266AA;
+}
+
+.fixpos {
+	position: fixed;
+	width: 225px;
+	margin-top: -2px;
+}
+
+.fixpostitle {
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif !important;
+	color: rgb(131,138,168) !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.5em;
+	letter-spacing: 1pt;
+	margin: 0px;
+}
+
+/* @end */
+
+/* @group Grid */
+
+/* --------------------------------------------------------------
+
+   BLUEPRINT CSS
+    * Filename:        grid.css
+    * Version:         0.7.1 (2008-02-25) YYYY-MM-DD
+    * Website:         http://code.google.com/p/blueprintcss/
+
+   Generated by:
+    * Blueprint CSS Grid Generator (2009-11-03) [http://kematzy.com/blueprint-generator/]
+
+   Based on work by:
+    * Olav Bjorkoy      [bjorkoy.com]
+    * Nathan Borror     [playgroundblues.com]
+    * Jeff Croft        [jeffcroft.com]
+    * Christian Metts   [mintchaos.com]
+    * Khoi Vinh         [subtraction.com]
+
+   == STRUCTURE: ========================
+    * Page width:            972 px
+    * Number of columns:     14
+    * Column width:          62 px
+    * Margin width:          8 px
+   ======================================
+
+   By default, the grid is 972px wide, with 14 columns
+   spanning 62px, and a 8px margin between columns.
+
+   If you need fewer or more columns, use this formula to calculate
+   the new total width:
+
+   Total width = (number_of_columns * column_width) - margin_width
+
+   Read more about using a grid here:
+   * subtraction.com/archives/2007/0318_oh_yeeaahh.php
+
+-------------------------------------------------------------- */
+
+/* A container should group all your columns. */
+
+.container {
+	width: 972px;
+	margin: 0 auto;
+	background-color: white;
+	/*background-image: url(images/rules/rule972_ouside.gif);*/
+}
+
+.textcontainer {
+	float: left;
+	width: 832px;
+	min-height: auto !important;
+	border-top: solid 1px rgb(200,200,200);
+	margin: 0px 0px 0px 0px;
+	padding-right: 0px;
+	/*margin-left: -1px;*/
+}
+
+/* Use this class on any div.span / container to see the grid. */
+
+.showgrid {
+	background: url(images/grid.png);
+}
+
+/* Body margin for a sensible default look. */
+
+/*body {
+	margin: 1.5em 0;
+}*/
+
+/* Columns
+-------------------------------------------------------------- */
+
+/* Sets up basic grid floating and margin. */
+
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14 {
+	float: left;
+	margin-right: 8px;
+	/*height: auto !important;*/
+}
+
+/* The last column in a row needs this class. */
+
+div.last {
+	margin-right: 0px;
+}
+
+/* Use these classes to set the width of a column. */
+
+.span-1 {
+	width: 62px;
+}
+
+.span-2 {
+	width: 132px;
+}
+
+.span-3 {
+	width: 202px;
+}
+
+.span-4 {
+	width: 262px;
+}
+
+.span-5 {
+	width: 342px;
+}
+
+.span-6 {
+	width: 412px;
+}
+
+.span-7 {
+	width: 482px;
+}
+
+.span-8 {
+	width: 552px;
+}
+
+.span-9 {
+	width: 622px;
+}
+
+.span-10 {
+	width: 692px;
+}
+
+.span-11 {
+	width: 762px;
+}
+
+.span-12 {
+	width: 832px;
+}
+
+.span-13 {
+	width: 902px;
+}
+
+.span-14, div.span-14 {
+	width: 972px;
+	margin: 0;
+}
+
+/* Add these to a column to append empty cols. */
+
+.append-1 {
+	padding-right: 70px;
+}
+
+.append-2 {
+	padding-right: 140px;
+}
+
+.append-3 {
+	padding-right: 210px;
+}
+
+.append-4 {
+	padding-right: 280px;
+}
+
+.append-5 {
+	padding-right: 350px;
+}
+
+.append-6 {
+	padding-right: 420px;
+}
+
+.append-7 {
+	padding-right: 490px;
+}
+
+.append-8 {
+	padding-right: 560px;
+}
+
+.append-9 {
+	padding-right: 630px;
+}
+
+.append-10 {
+	padding-right: 700px;
+}
+
+.append-11 {
+	padding-right: 770px;
+}
+
+.append-12 {
+	padding-right: 840px;
+}
+
+.append-13 {
+	padding-right: 910px;
+}
+
+/* Add these to a column to prepend empty cols. */
+
+.prepend-1 {
+	padding-left: 70px;
+}
+
+.prepend-2 {
+	padding-left: 140px;
+}
+
+.prepend-3 {
+	padding-left: 210px;
+}
+
+.prepend-4 {
+	padding-left: 280px;
+}
+
+.prepend-5 {
+	padding-left: 350px;
+}
+
+.prepend-6 {
+	padding-left: 420px;
+}
+
+.prepend-7 {
+	padding-left: 490px;
+}
+
+.prepend-8 {
+	padding-left: 560px;
+}
+
+.prepend-9 {
+	padding-left: 630px;
+}
+
+.prepend-10 {
+	padding-left: 700px;
+}
+
+.prepend-11 {
+	padding-left: 770px;
+}
+
+.prepend-12 {
+	padding-left: 840px;
+}
+
+.prepend-13 {
+	padding-left: 910px;
+}
+
+/* Border on right hand side of a column. */
+
+div.border {
+	padding-right: 3px;
+	margin-right: 4px;
+	border-right: 1px solid #eee;
+}
+
+/* Border with more whitespace, spans one column. */
+
+div.colborder {
+	padding-right: 61px;
+	margin-right: 58px;
+	border-right: 1px solid #eee;
+}
+
+/* Use these classes on an element to push it into the
+   next column, or to pull it into the previous column.  */
+
+.pull-1 {
+	margin-left: -70px;
+}
+
+.pull-2 {
+	margin-left: -140px;
+}
+
+.pull-3 {
+	margin-left: -210px;
+}
+
+.pull-4 {
+	margin-left: -280px;
+}
+
+.pull-5 {
+	margin-left: -350px;
+}
+
+.pull-6 {
+	margin-left: -420px;
+}
+
+.pull-7 {
+	margin-left: -490px;
+}
+
+.pull-8 {
+	margin-left: -560px;
+}
+
+.pull-9 {
+	margin-left: -630px;
+}
+
+.pull-10 {
+	margin-left: -700px;
+}
+
+.pull-11 {
+	margin-left: -770px;
+}
+
+.pull-12 {
+	margin-left: -840px;
+}
+
+.pull-13 {
+	margin-left: -910px;
+}
+
+.pull-14 {
+	margin-left: -980px;
+}
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12, .pull-13, .pull-14 {
+	float: left;
+	position: relative;
+}
+
+.push-1 {
+	margin: 0 -70px 1.5em 70px;
+}
+
+.push-2 {
+	margin: 0 -140px 1.5em 140px;
+}
+
+.push-3 {
+	margin: 0 -210px 1.5em 210px;
+}
+
+.push-4 {
+	margin: 0 -280px 1.5em 280px;
+}
+
+.push-5 {
+	margin: 0 -350px 1.5em 350px;
+}
+
+.push-6 {
+	margin: 0 -420px 1.5em 420px;
+}
+
+.push-7 {
+	margin: 0 -490px 1.5em 490px;
+}
+
+.push-8 {
+	margin: 0 -560px 1.5em 560px;
+}
+
+.push-9 {
+	margin: 0 -630px 1.5em 630px;
+}
+
+.push-10 {
+	margin: 0 -700px 1.5em 700px;
+}
+
+.push-11 {
+	margin: 0 -770px 1.5em 770px;
+}
+
+.push-12 {
+	margin: 0 -840px 1.5em 840px;
+}
+
+.push-13 {
+	margin: 0 -910px 1.5em 910px;
+}
+
+.push-14 {
+	margin: 0 -980px 1.5em 980px;
+}
+
+.push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12, .push-13, .push-14 {
+	float: right;
+	position: relative;
+}
+
+/* Misc classes and elements
+-------------------------------------------------------------- */
+
+/* Use a .box to create a padded box inside a column.  */
+
+.box {
+	padding: 1.5em;
+	margin-bottom: 1.5em;
+	background: #E5ECF9;
+}
+
+/* Use this to create a horizontal ruler across a column. */
+
+hr {
+	background: #ddd;
+	color: #ddd;
+	clear: both;
+	float: none;
+	width: 100%;
+	height: .1em;
+	margin: 0 0 1.45em;
+	border: none;
+}
+
+hr.space {
+	background: #fff;
+	color: #fff;
+}
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after, .container:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix, .container {
+	display: inline-block;
+}
+
+* html .clearfix,
+* html .container {
+	height: 1%;
+}
+
+.clearfix, .container {
+	display: block;
+}
+
+/* Regular clearing
+   apply to column that should drop below previous ones. */
+
+.clear {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Colors */
+
+a {
+	color: #005B7F;
+	text-decoration: none;
+	/*border-bottom: 1px dotted #005B7F;*/
+}
+
+/* Navigation */
+
+#nav {
+	background: url(../images/blue/nav-bg.jpg) repeat-x bottom;
+}
+
+#nav ul li:hover, #page #nav ul li.nav-selected {
+	background-color: #3887a6;
+	border: 1px solid #003a50;
+}
+
+#nav ul li a:hover,
+#nav ul li a:active,
+#nav ul li.nav-selected a {
+	background-color: #3887a6;
+}
+
+#nav li ul {
+	background-color: #3887a6;
+	border: 1px solid #003a50;
+}
+
+#nav li li a:hover, #nav li li a:active {
+	background-color: #409abd;
+}
+
+/* Feature */
+
+#feature {
+	border: 5px solid #3887a6;
+}
+
+/* Title */
+
+/* Sections */
+
+#sections h3 {
+	background-color: #3887A6;
+}
+
+#sections {
+	background-color: #D3E1E6;
+	border-bottom: 8px solid #B5C9CF;
+}
+
+/* Footer */
+
+/*#footer {
+	background:url(../images/blue/footer-bg.png) no-repeat center;
+	background: gray;
+	color: black;
+}*/
+
+/* Button */
+
+form input.formBlockSubmitButton, form input.searchBlockSubmitButton, .button {
+	background: #3887A6;
+	border-color: #409abd #015B7E #015B7E #409abd;
+}
+
+.button:hover {
+	background-color: #409abd;
+}
+
+/* @end */
+
+
+.searchbox{
+    margin:10px;
+}
+
+#quoteText{
+font-family:"Lucida Grande",Lucida,Verdana,sans-serif !important;
+font-size:1em;
+line-height:2.5em !important;
+text-indent:0 !important;
+}
+
+#authorText{
+font-family:"Lucida Grande",Lucida,Verdana,sans-serif !important;
+font-size:1em;
+line-height:2.5em !important;
+text-indent:0 !important;
+border-bottom:1px solid #C8C8C8;
+font-variant:small-caps;
+letter-spacing:1.5px;
+margin:0 0 15px 0;
+}
+
+
+/*NAVIGATION MENU CSS*/
+
+/* Thanks to
+http://htmldog.com/articles/suckerfish/dropdowns/
+and - by proxy - alistapart.
+*/
+
+.menu{
+/*  margin: -20px -20px 0px 0px; */
+    height:27px;
+    padding:0 0 0 5px;
+}
+
+.menu ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 1;
+    z-index: 999;
+}
+
+.menu > ul{
+    margin: 0px 0px 0px -8px ;
+    padding: 0px;
+}
+
+.menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 8px;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.menu a.nolink, .menu a.nolink:hover, .submenu a.nolink, .submenu a.nolink:hover{
+  text-decoration: none;
+  cursor: default;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    float: left;
+}
+
+
+
+.menu > ul > li.first{
+    border-left: none;
+}
+
+.menu li li {
+    background-color: #ffffff;
+    line-height: 1.2em;
+}
+
+.menu li ul {
+    background-color: #f7f7f7;
+    position: absolute;
+    width: 180px;
+    left: -999em;
+    top:22px;
+    padding: 5px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    border: 1px solid #dadada;
+}
+
+.menu li ul a{
+  padding: 8px 0px 8px 4px;
+  width: 180px;
+}
+
+.menu li ul ul {
+  margin: -31px 0 0 180px;
+}
+
+.menu li:hover, .menu li.sfhover{
+  background: #ffffff;
+  z-index: 1010;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.menu li:hover a, .menu li.sfhover a, .menu li.active a{
+  color: #000080;
+  z-index: 1010;
+  background:#f7f7f7;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* 2 level menus */
+
+.menu li:hover ul, .menu li.sfhover ul {
+  left: auto;
+  z-index: 1010;
+}
+
+/* 3 level menus */
+
+.menu li:hover ul ul, .menu li.sfhover ul ul {
+  left: -999em;
+  z-index: 1010;
+}
+
+.menu li:hover ul, .menu li li:hover ul, .menu li.sfhover ul, .menu li li.sfhover ul {
+  left: auto;
+  z-index: 1010;
+}
+
+/* Submenu CSS */
+
+.submenu-container h2{
+  margin-top: 0px;
+  font-size: 13px;
+  background: #1a3d63;
+  padding: 5px;
+}
+
+.submenu-container h2 a{
+  color: white;
+  text-decoration: none;
+}
+.submenu ul{
+  padding-left: 0px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.submenu > ul{
+  margin-left: 0px;
+}
+
+.submenu ul{
+  margin-bottom: 10px;
+}
+
+.submenu li{
+  margin-bottom: 5px;
+  display: inline;
+}
+.submenu a{
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #1a3d63;
+}
+
+.submenu a:hover{
+  background-color: #e4e4e4;
+  text-decoration: underline;
+}
+
+.submenu li.on a{
+  font-weight: bold;
+}
+
+.submenu li.open > a{
+  font-weight: bold;
+}
+
+#breadcrumbs{
+  padding: 5px;
+  font-size: 10px;
+  color: #ccc;
+}
+
+#breadcrumbs ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#breadcrumbs li{
+  margin-left: 20px;
+  display: inline;
+}
+#breadcrumbs a{
+  color: #ccc;
+  text-decoration: none;
+}
+#breadcrumbs li.first{
+  margin-left: 0px;
+}
+
+
+/*NAVIGATION MENU CSS END*/

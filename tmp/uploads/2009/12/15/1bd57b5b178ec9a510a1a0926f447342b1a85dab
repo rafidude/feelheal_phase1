@@ -1,0 +1,42 @@
+
+  
+/*
+Random Image Link Script- By JavaScript Kit(http://www.javascriptkit.com) 
+Over 200+ free JavaScripts here!
+Updated: 00/04/25
+*/
+
+
+function random_imglink(){
+var myimages=new Array()
+//specify random images below. You can have as many as you wish
+myimages[1]="/images/EE/EEarhoolie.jpg"
+myimages[2]="/images/EE/EEauthor.jpg"
+myimages[3]="/images/EE/EEBogie.jpg"
+myimages[4]="/images/EE/EEchin-in-hand.jpg"
+myimages[5]="/images/EE/EEPortrait.jpg"
+myimages[6]="/images/EE/EEPrasad.jpg"
+myimages[7]="/images/EE/EEsmiling.jpg"
+myimages[8]="/images/EE/EEThels.jpg"
+myimages[9]="/images/EE/Vim-apples.jpg"
+myimages[10]="/images/EE/Vimsmile.jpg"
+
+//specify corresponding links below
+var imagelinks=new Array()
+imagelinks[1]="/"
+imagelinks[2]="/"
+imagelinks[3]="/"
+imagelinks[4]="/"
+imagelinks[5]="/"
+imagelinks[6]="/"
+imagelinks[7]="/"
+imagelinks[8]="/"
+imagelinks[9]="/"
+imagelinks[10]="/"
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<p class ="img-left"><a href='+'"'+imagelinks[ry]+'"'+'><img src="'+myimages[ry]+'" border=0 width=115></a>')
+}
+random_imglink()

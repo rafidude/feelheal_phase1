@@ -1,0 +1,31 @@
+var arrQuote=new Array()
+var arrAuth=new Array();
+
+arrQuote[0] = "This is the central principle of meditation: we become what we meditate on-1.";
+arrQuote[1] = "This is the central principle of meditation: we become what we meditate on-2";
+arrQuote[2] = "This is the central principle of meditation: we become what we meditate on-3";
+arrQuote[3] = "This is the central principle of meditation: we become what we meditate on-4";
+arrQuote[4] = "This is the central principle of meditation: we become what we meditate on-5";
+arrQuote[5] = "This is the central principle of meditation: we become what we meditate on-0";
+
+arrAuth[0] = "EAKNATH EASWARAN";
+arrAuth[1] = "EAKNATH EASWARAN";
+arrAuth[2] = "EAKNATH EASWARAN";
+arrAuth[3] = "EAKNATH EASWARAN";
+arrAuth[4] = "EAKNATH EASWARAN";
+arrAuth[5] = "EAKNATH EASWARAN";
+
+
+
+
+function ChangeText()
+{
+    var numQuote = arrQuote.length;
+    var whichQuotation=Math.floor(Math.random()*numQuote);
+    var quote = document.getElementById("quoteText");
+    quote.innerHTML = (arrQuote[whichQuotation]);
+    var author = document.getElementById("authorText");
+    author.innerHTML = (arrAuth[whichQuotation]);
+}
+
+window.onload=ChangeText;

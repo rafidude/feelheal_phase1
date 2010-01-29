@@ -1,0 +1,36 @@
+<% @ecard = ImageBlock.find_all_by_name("passage_ecard") %>
+<% @e_data = [] %>
+<% @ecard.each do |e| %> 
+  <% @e_data.push e.attachment_id %>
+<% end %>
+
+<% @ecard_info = [] %>
+<% @e_data.each do |x| %>
+  <% @info = Attachment.find(x) %>
+  <% @ecard_info.push @info %>
+<% end %>
+
+<% @audio = FileBlock.find_all_by_name("passage_audio") %>
+<% @a_data = [] %>
+<% @audio.each do |e| %>
+  <% @a_data.push e.attachment_id %>
+<% end %>
+
+<% @audio_info = [] %>
+<% @a_data.each do |x| %>
+  <% @info = Attachment.find(x) %>
+  <% @audio_info.push @info %>
+<% end %>
+
+<%= f.cms_text_field :name %>
+<%= f.cms_text_field :p_source %>
+<%= f.cms_text_field :p_title %>
+<%= f.cms_text_editor :p_passage %>
+<%= f.cms_text_editor :p_source_note %>
+<%= f.cms_drop_down :ecard,
+  @ecard_info.map{|s| [s.name, s.id]},
+  :label => "E Card", :prompt=>"Select Ecard" %>
+
+<%= f.cms_drop_down :audio,
+  @audio_info.map{|s| [s.name, s.id]},
+  :label => "Audio", :prompt=>"Select Audio" %>

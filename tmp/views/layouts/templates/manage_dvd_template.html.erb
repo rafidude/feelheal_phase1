@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <%= stylesheet_link_tag "/theme/styles/style_new" %>
+<script type="text/javascript" src="/scripts/home_random_quotes.js"></script>
+
+    <title><%= page_title %></title>
+
+    <%= yield :html_head %>
+
+  </head>
+
+  <body>
+
+    <%= cms_toolbar %>
+
+ <%= render :partial => "partials/header"%>
+
+<div class="container ruleoutside">
+  <%= render :partial => "partials/left_nav"%>
+
+<div class="span-12 last">
+  <div id="title">
+  <h1>
+<%= container :title %>
+  </h1>
+  </div><!-- title ends -->
+		<div class="textcontainer">
+
+		<div class="span-12 last">
+		<div class="text">
+          <h3 class="sans"><%= container :head_top %></h3>
+          <p class="sans"><%= container :subhead_top %></p>
+          <p class="sans"><%= container :content_top %></p>
+		</div><!-- text ends -->
+		</div><!-- left column ends -->
+
+	</div> <!-- textcontainer ends -->
+
+
+	<div class="textcontainer rule2">
+<% @dvd_list = DvdList.find(:all, :order=>"id_of_dvd ASC") %>
+<% @dvd_list_count = @dvd_list.size %>
+<% @num_cols = 2 %>
+<% @items_per_col = (@dvd_list_count.to_f/@num_cols.to_f).ceil %>
+
+
+		<div class="span-6">
+          <% @count = 0 %>
+          <% (1..@items_per_col).each do |x| %>
+            <% @count = (x-1) %>
+            <% @dvd_item = @dvd_list[x-1] %>
+            <div class="dvdiv">
+              <p class="DVDnumber"><%= @dvd_item.id_of_dvd %>:<%= @dvd_item.title %></p>
+              <p class="DVDtitle"><%= @dvd_item.talk1 %><br/><%= @dvd_item.talk2 %></p>
+              <p class="DVDnumber">
+
+                  <% if @dvd_item.short_story_guide != "" %>
+                  <a href="<%= @dvd_item.short_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.long_story_guide != "" %>
+                  <a href="<%= @dvd_item.long_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.satsang_curriculum != "" %>
+                  <a href="<%= @dvd_item.satsang_curriculum  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.video_description_file != "" %>
+                  <a href="<%= @dvd_item.video_description_file  %> "><img src="/theme/images/tv.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.cart_link != "" %>
+                  <a href="<%= @dvd_item.cart_link  %> "><img src="/theme/images/cart.gif" class="icon"></a>
+                  <% end %>
+
+              </p>
+            </div>
+          <% end %>
+		</div><!-- left column ends -->
+
+<% if (@dvd_list_count%2) == 0 %>
+
+		<div class="span-6 last">
+          <% (@count+2..@count+@items_per_col+1).each do |x| %>
+            <% @dvd_item = @dvd_list[x-1] %>
+            <div class="dvdiv">
+              <p class="DVDnumber"><%= @dvd_item.id_of_dvd %>:<%= @dvd_item.title %></p>
+              <p class="DVDtitle"><%= @dvd_item.talk1 %><br/><%= @dvd_item.talk2 %></p>
+              <p class="DVDnumber">
+
+                  <% if @dvd_item.short_story_guide != "" %>
+                  <a href="<%= @dvd_item.short_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.long_story_guide != "" %>
+                  <a href="<%= @dvd_item.long_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.satsang_curriculum != "" %>
+                  <a href="<%= @dvd_item.satsang_curriculum  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.video_description_file != "" %>
+                  <a href="<%= @dvd_item.video_description_file  %> "><img src="/theme/images/tv.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.cart_link != "" %>
+                  <a href="<%= @dvd_item.cart_link  %> "><img src="/theme/images/cart.gif" class="icon"></a>
+                  <% end %>
+
+              </p>
+            </div>
+          <% end %>
+		</div><!-- left column ends -->
+
+<% else %>
+
+		<div class="span-6 last">
+          <% (@count+2..@count+@items_per_col).each do |x| %>
+            <% @dvd_item = @dvd_list[x-1] %>
+            <div class="dvdiv">
+              <p class="DVDnumber"><%= @dvd_item.id_of_dvd %>:<%= @dvd_item.title %></p>
+              <p class="DVDtitle"><%= @dvd_item.talk1 %><br/><%= @dvd_item.talk2 %></p>
+              <p class="DVDnumber">
+
+                  <% if @dvd_item.short_story_guide != "" %>
+                  <a href="<%= @dvd_item.short_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.long_story_guide != "" %>
+                  <a href="<%= @dvd_item.long_story_guide  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.satsang_curriculum != "" %>
+                  <a href="<%= @dvd_item.satsang_curriculum  %> "><img src="/theme/images/document.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.video_description_file != "" %>
+                  <a href="<%= @dvd_item.video_description_file  %> "><img src="/theme/images/tv.gif" class="icon"></a>
+                  <% end %>
+
+                  <% if @dvd_item.cart_link != "" %>
+                  <a href="<%= @dvd_item.cart_link  %> "><img src="/theme/images/cart.gif" class="icon"></a>
+                  <% end %>
+
+              </p>
+            </div>
+          <% end %>
+		</div><!-- left column ends -->
+
+<% end %>
+
+	</div> <!-- textcontainer ends -->
+
+
+
+	</div> <!-- span-12 last ends -->
+
+	</div> <!-- container ends -->
+
+<%= render :partial => "partials/footer"%>
+
+
+
+  </body>
+
+</html>
+
+
+
+

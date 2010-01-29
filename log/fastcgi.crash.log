@@ -1,0 +1,518 @@
+# Logfile created on Tue Jan 05 00:23:33 -0800 2010 by /
+[05/Jan/2010:00:23:33 :: 13731] starting
+[05/Jan/2010:00:24:00 :: 14193] starting
+[05/Jan/2010:00:30:21 :: 13731] asked to stop immediately
+[05/Jan/2010:00:30:21 :: 13731] stopping after explicit exit
+[05/Jan/2010:00:30:21 :: 14193] asked to stop immediately
+[05/Jan/2010:00:30:21 :: 14193] stopping after explicit exit
+[05/Jan/2010:01:22:55 :: 22125] starting
+[05/Jan/2010:01:23:06 :: 22284] starting
+[05/Jan/2010:01:52:07 :: 22125] asked to stop immediately
+[05/Jan/2010:01:52:07 :: 22125] stopping after explicit exit
+[05/Jan/2010:02:00:30 :: 20476] starting
+[05/Jan/2010:02:24:54 :: 22284] asked to stop immediately
+[05/Jan/2010:02:24:54 :: 22284] stopping after explicit exit
+[05/Jan/2010:02:27:52 :: 30676] starting
+[05/Jan/2010:03:01:44 :: 20476] asked to stop immediately
+[05/Jan/2010:03:01:44 :: 20476] stopping after explicit exit
+[05/Jan/2010:03:01:59 :: 28259] starting
+[05/Jan/2010:03:28:21 :: 30676] asked to stop immediately
+[05/Jan/2010:03:28:21 :: 30676] stopping after explicit exit
+[05/Jan/2010:03:56:43 :: 24282] starting
+[05/Jan/2010:04:03:02 :: 28259] asked to stop immediately
+[05/Jan/2010:04:03:02 :: 28259] stopping after explicit exit
+[05/Jan/2010:09:34:55 :: 26102] starting
+[05/Jan/2010:09:35:14 :: 26526] starting
+[05/Jan/2010:09:44:10 :: 26526] asked to stop immediately
+[05/Jan/2010:09:44:10 :: 26102] asked to stop immediately
+[05/Jan/2010:09:44:10 :: 26526] stopping after explicit exit
+[05/Jan/2010:09:44:10 :: 26102] stopping after explicit exit
+[05/Jan/2010:13:42:49 :: 7508] starting
+[05/Jan/2010:20:29:54 :: 3247] starting
+[05/Jan/2010:20:30:49 :: 7866] starting
+[05/Jan/2010:20:37:38 :: 3247] asked to stop immediately
+[05/Jan/2010:20:37:38 :: 7866] asked to stop immediately
+[05/Jan/2010:20:37:38 :: 3247] stopping after explicit exit
+[05/Jan/2010:20:37:38 :: 7866] stopping after explicit exit
+[05/Jan/2010:20:39:58 :: 15692] starting
+[05/Jan/2010:20:40:19 :: 16293] starting
+[05/Jan/2010:20:54:20 :: 11484] starting
+[05/Jan/2010:21:11:23 :: 11484] asked to stop immediately
+[05/Jan/2010:21:11:23 :: 11484] stopping after explicit exit
+[05/Jan/2010:21:33:27 :: 1679] starting
+[05/Jan/2010:21:53:26 :: 21680] starting
+[05/Jan/2010:22:01:51 :: 1679] asked to stop immediately
+[05/Jan/2010:22:01:51 :: 21680] asked to stop immediately
+[05/Jan/2010:22:01:51 :: 1679] stopping after explicit exit
+[05/Jan/2010:22:01:51 :: 21680] stopping after explicit exit
+[05/Jan/2010:22:11:33 :: 28443] starting
+[05/Jan/2010:22:33:04 :: 23850] starting
+[05/Jan/2010:23:12:13 :: 28443] asked to stop immediately
+[05/Jan/2010:23:12:13 :: 28443] stopping after explicit exit
+[05/Jan/2010:23:12:13 :: 23850] asked to stop immediately
+[05/Jan/2010:23:12:13 :: 23850] stopping after explicit exit
+[05/Jan/2010:23:13:47 :: 13553] starting
+[06/Jan/2010:01:31:26 :: 31851] starting
+[06/Jan/2010:01:33:19 :: 13553] asked to stop immediately
+[06/Jan/2010:01:33:19 :: 13553] stopping after explicit exit
+[06/Jan/2010:01:34:58 :: 10140] starting
+[06/Jan/2010:01:53:45 :: 31851] asked to stop immediately
+[06/Jan/2010:01:53:45 :: 10140] asked to stop immediately
+[06/Jan/2010:01:53:45 :: 31851] stopping after explicit exit
+[06/Jan/2010:01:53:45 :: 10140] stopping after explicit exit
+[06/Jan/2010:02:01:25 :: 14330] starting
+[06/Jan/2010:02:01:35 :: 16270] starting
+[06/Jan/2010:02:08:00 :: 14330] asked to stop immediately
+[06/Jan/2010:02:08:00 :: 14330] stopping after explicit exit
+[06/Jan/2010:02:08:00 :: 16270] asked to stop immediately
+[06/Jan/2010:02:08:00 :: 16270] stopping after explicit exit
+[06/Jan/2010:02:43:36 :: 20398] starting
+[06/Jan/2010:09:00:48 :: 6035] starting
+[06/Jan/2010:09:01:15 :: 7400] starting
+[06/Jan/2010:09:08:34 :: 7400] asked to stop immediately
+[06/Jan/2010:09:08:34 :: 7400] stopping after explicit exit
+[06/Jan/2010:09:08:34 :: 6035] asked to stop immediately
+[06/Jan/2010:09:08:34 :: 6035] stopping after explicit exit
+[06/Jan/2010:15:27:09 :: 15727] starting
+[06/Jan/2010:15:27:20 :: 15808] starting
+[06/Jan/2010:15:32:33 :: 15808] asked to stop immediately
+[06/Jan/2010:15:32:33 :: 15727] asked to stop immediately
+[06/Jan/2010:15:32:33 :: 15808] stopping after explicit exit
+[06/Jan/2010:15:32:33 :: 15727] stopping after explicit exit
+[06/Jan/2010:19:07:45 :: 22014] starting
+[06/Jan/2010:19:08:15 :: 23663] starting
+[06/Jan/2010:19:23:15 :: 22014] asked to stop immediately
+[06/Jan/2010:19:23:15 :: 22014] stopping after explicit exit
+[06/Jan/2010:19:23:15 :: 23663] asked to stop immediately
+[06/Jan/2010:19:23:15 :: 23663] stopping after explicit exit
+[06/Jan/2010:19:33:46 :: 20411] starting
+[06/Jan/2010:21:00:36 :: 26267] starting
+[06/Jan/2010:21:01:18 :: 20411] asked to stop immediately
+[06/Jan/2010:21:01:18 :: 20411] stopping after explicit exit
+[06/Jan/2010:21:02:07 :: 30496] starting
+[06/Jan/2010:21:13:34 :: 30496] asked to stop immediately
+[06/Jan/2010:21:13:34 :: 30496] stopping after explicit exit
+[06/Jan/2010:21:13:34 :: 26267] asked to stop immediately
+[06/Jan/2010:21:13:34 :: 26267] stopping after explicit exit
+[06/Jan/2010:21:16:42 :: 25830] starting
+[06/Jan/2010:21:20:16 :: 3361] starting
+[06/Jan/2010:21:34:01 :: 3361] asked to stop immediately
+[06/Jan/2010:21:34:01 :: 3361] stopping after explicit exit
+[06/Jan/2010:21:34:01 :: 25830] asked to stop immediately
+[06/Jan/2010:21:34:01 :: 25830] stopping after explicit exit
+[06/Jan/2010:21:59:48 :: 13541] starting
+[06/Jan/2010:23:02:35 :: 32009] starting
+[06/Jan/2010:23:03:53 :: 13541] asked to stop immediately
+[06/Jan/2010:23:03:53 :: 13541] stopping after explicit exit
+[06/Jan/2010:23:06:47 :: 4039] starting
+[06/Jan/2010:23:22:17 :: 4039] asked to stop immediately
+[06/Jan/2010:23:22:17 :: 4039] stopping after explicit exit
+[06/Jan/2010:23:29:19 :: 3499] starting
+[06/Jan/2010:23:54:29 :: 22283] starting
+[06/Jan/2010:23:54:48 :: 22430] starting
+[07/Jan/2010:00:19:29 :: 22283] asked to stop immediately
+[07/Jan/2010:00:19:29 :: 22430] asked to stop immediately
+[07/Jan/2010:00:19:29 :: 22283] stopping after explicit exit
+[07/Jan/2010:00:19:29 :: 22430] stopping after explicit exit
+[07/Jan/2010:03:05:48 :: 28456] starting
+[07/Jan/2010:03:05:56 :: 28523] starting
+[07/Jan/2010:03:27:39 :: 28456] asked to stop immediately
+[07/Jan/2010:03:27:39 :: 28456] stopping after explicit exit
+[07/Jan/2010:03:27:39 :: 28523] asked to stop immediately
+[07/Jan/2010:03:27:39 :: 28523] stopping after explicit exit
+[07/Jan/2010:03:35:51 :: 13500] starting
+[07/Jan/2010:03:40:19 :: 25775] starting
+[07/Jan/2010:03:52:12 :: 25775] asked to stop immediately
+[07/Jan/2010:03:52:12 :: 13500] asked to stop immediately
+[07/Jan/2010:03:52:12 :: 25775] stopping after explicit exit
+[07/Jan/2010:03:52:12 :: 13500] stopping after explicit exit
+[07/Jan/2010:15:03:04 :: 23916] starting
+[07/Jan/2010:15:03:18 :: 24319] starting
+[07/Jan/2010:15:10:31 :: 23916] asked to stop immediately
+[07/Jan/2010:15:10:31 :: 23916] stopping after explicit exit
+[07/Jan/2010:15:10:31 :: 24319] asked to stop immediately
+[07/Jan/2010:15:10:31 :: 24319] stopping after explicit exit
+[07/Jan/2010:16:37:36 :: 19541] starting
+[07/Jan/2010:20:47:56 :: 26614] starting
+[07/Jan/2010:21:34:09 :: 29819] starting
+[07/Jan/2010:21:39:37 :: 26614] asked to stop immediately
+[07/Jan/2010:21:39:37 :: 26614] stopping after explicit exit
+[07/Jan/2010:21:39:37 :: 29819] asked to stop immediately
+[07/Jan/2010:21:39:37 :: 29819] stopping after explicit exit
+[07/Jan/2010:22:02:35 :: 24366] starting
+[07/Jan/2010:22:04:53 :: 28589] starting
+[07/Jan/2010:22:42:47 :: 28589] asked to stop immediately
+[07/Jan/2010:22:42:47 :: 28589] stopping after explicit exit
+[07/Jan/2010:22:42:47 :: 24366] asked to stop immediately
+[07/Jan/2010:22:42:47 :: 24366] stopping after explicit exit
+[07/Jan/2010:22:57:26 :: 32553] starting
+[07/Jan/2010:22:57:31 :: 32580] starting
+[07/Jan/2010:23:03:16 :: 32553] asked to stop immediately
+[07/Jan/2010:23:03:16 :: 32580] asked to stop immediately
+[07/Jan/2010:23:03:16 :: 32580] stopping after explicit exit
+[07/Jan/2010:23:03:16 :: 32553] stopping after explicit exit
+[07/Jan/2010:23:05:47 :: 11650] starting
+[07/Jan/2010:23:05:53 :: 11714] starting
+[07/Jan/2010:23:11:23 :: 11650] asked to stop immediately
+[07/Jan/2010:23:11:23 :: 11650] stopping after explicit exit
+[07/Jan/2010:23:11:23 :: 11714] asked to stop immediately
+[07/Jan/2010:23:11:23 :: 11714] stopping after explicit exit
+[08/Jan/2010:00:40:43 :: 17800] starting
+[08/Jan/2010:00:40:54 :: 17854] starting
+[08/Jan/2010:00:46:32 :: 17800] asked to stop immediately
+[08/Jan/2010:00:46:32 :: 17854] asked to stop immediately
+[08/Jan/2010:00:46:32 :: 17854] stopping after explicit exit
+[08/Jan/2010:00:46:32 :: 17800] stopping after explicit exit
+[08/Jan/2010:01:00:31 :: 15677] starting
+[08/Jan/2010:01:00:39 :: 17497] starting
+[08/Jan/2010:01:06:58 :: 15677] asked to stop immediately
+[08/Jan/2010:01:06:58 :: 15677] stopping after explicit exit
+[08/Jan/2010:01:06:58 :: 17497] asked to stop immediately
+[08/Jan/2010:01:06:58 :: 17497] stopping after explicit exit
+[08/Jan/2010:03:22:45 :: 6118] starting
+[08/Jan/2010:05:40:42 :: 6118] asked to stop immediately
+[08/Jan/2010:05:40:43 :: 6118] stopping after explicit exit
+[08/Jan/2010:16:55:27 :: 20079] starting
+[08/Jan/2010:21:36:56 :: 20079] asked to stop immediately
+[08/Jan/2010:21:36:58 :: 20079] stopping after explicit exit
+[08/Jan/2010:21:36:59 :: 16364] starting
+[08/Jan/2010:21:37:51 :: 18087] starting
+[08/Jan/2010:21:43:00 :: 16364] asked to stop immediately
+[08/Jan/2010:21:43:00 :: 16364] stopping after explicit exit
+[08/Jan/2010:21:43:00 :: 18087] asked to stop immediately
+[08/Jan/2010:21:43:00 :: 18087] stopping after explicit exit
+[08/Jan/2010:22:44:21 :: 19456] starting
+[09/Jan/2010:01:16:59 :: 19678] starting
+[09/Jan/2010:01:17:50 :: 19456] asked to stop immediately
+[09/Jan/2010:01:17:50 :: 19456] stopping after explicit exit
+[09/Jan/2010:09:41:56 :: 11998] starting
+[10/Jan/2010:11:25:55 :: 1628] starting
+[10/Jan/2010:21:17:11 :: 17581] starting
+[10/Jan/2010:21:17:20 :: 17712] starting
+[10/Jan/2010:21:26:13 :: 17581] asked to stop immediately
+[10/Jan/2010:21:26:13 :: 17581] stopping after explicit exit
+[10/Jan/2010:21:26:13 :: 17712] asked to stop immediately
+[10/Jan/2010:21:26:13 :: 17712] stopping after explicit exit
+[11/Jan/2010:23:30:35 :: 21672] starting
+[11/Jan/2010:23:31:09 :: 21984] starting
+[11/Jan/2010:23:55:27 :: 21672] asked to stop immediately
+[11/Jan/2010:23:55:27 :: 21672] stopping after explicit exit
+[11/Jan/2010:23:56:07 :: 25608] starting
+[12/Jan/2010:00:32:16 :: 21984] asked to stop immediately
+[12/Jan/2010:00:32:16 :: 21984] stopping after explicit exit
+[12/Jan/2010:01:18:07 :: 9273] starting
+[12/Jan/2010:01:19:20 :: 25608] asked to stop immediately
+[12/Jan/2010:01:19:20 :: 25608] stopping after explicit exit
+[12/Jan/2010:01:20:24 :: 11695] starting
+[12/Jan/2010:01:37:39 :: 9273] asked to stop immediately
+[12/Jan/2010:01:37:39 :: 9273] stopping after explicit exit
+[12/Jan/2010:01:48:10 :: 16073] starting
+[12/Jan/2010:01:55:57 :: 11695] asked to stop immediately
+[12/Jan/2010:01:55:57 :: 11695] stopping after explicit exit
+[12/Jan/2010:01:55:57 :: 16073] asked to stop immediately
+[12/Jan/2010:01:55:57 :: 16073] stopping after explicit exit
+[12/Jan/2010:02:03:18 :: 1948] starting
+[12/Jan/2010:02:06:50 :: 5460] starting
+[12/Jan/2010:02:20:28 :: 5460] asked to stop immediately
+[12/Jan/2010:02:20:28 :: 5460] stopping after explicit exit
+[12/Jan/2010:02:20:28 :: 1948] asked to stop immediately
+[12/Jan/2010:02:20:28 :: 1948] stopping after explicit exit
+[12/Jan/2010:02:20:49 :: 23708] starting
+[12/Jan/2010:02:25:23 :: 29795] starting
+[12/Jan/2010:02:32:42 :: 23708] asked to stop immediately
+[12/Jan/2010:02:32:42 :: 23708] stopping after explicit exit
+[12/Jan/2010:02:32:42 :: 29795] asked to stop immediately
+[12/Jan/2010:02:32:42 :: 29795] stopping after explicit exit
+[12/Jan/2010:02:39:59 :: 13508] starting
+[12/Jan/2010:02:41:25 :: 15781] starting
+[12/Jan/2010:03:05:27 :: 15781] asked to stop immediately
+[12/Jan/2010:03:05:27 :: 13508] asked to stop immediately
+[12/Jan/2010:03:05:27 :: 15781] stopping after explicit exit
+[12/Jan/2010:03:05:27 :: 13508] stopping after explicit exit
+[12/Jan/2010:03:11:22 :: 30264] starting
+[12/Jan/2010:03:11:36 :: 30327] starting
+[12/Jan/2010:03:19:46 :: 30327] asked to stop immediately
+[12/Jan/2010:03:19:46 :: 30327] stopping after explicit exit
+[12/Jan/2010:03:19:46 :: 30264] asked to stop immediately
+[12/Jan/2010:03:19:46 :: 30264] stopping after explicit exit
+[12/Jan/2010:03:28:11 :: 21904] starting
+[12/Jan/2010:03:28:12 :: 21906] starting
+[12/Jan/2010:03:48:26 :: 21904] asked to stop immediately
+[12/Jan/2010:03:48:26 :: 21904] stopping after explicit exit
+[12/Jan/2010:03:48:26 :: 21906] asked to stop immediately
+[12/Jan/2010:03:48:26 :: 21906] stopping after explicit exit
+[12/Jan/2010:05:58:41 :: 26593] starting
+[12/Jan/2010:05:58:53 :: 27773] starting
+[12/Jan/2010:06:23:37 :: 26593] asked to stop immediately
+[12/Jan/2010:06:23:37 :: 26593] stopping after explicit exit
+[12/Jan/2010:06:23:37 :: 27773] asked to stop immediately
+[12/Jan/2010:06:23:37 :: 27773] stopping after explicit exit
+[12/Jan/2010:06:44:36 :: 5449] starting
+[12/Jan/2010:07:40:27 :: 26532] starting
+[12/Jan/2010:07:45:16 :: 5449] asked to stop immediately
+[12/Jan/2010:07:45:16 :: 5449] stopping after explicit exit
+[12/Jan/2010:07:46:54 :: 9490] starting
+[12/Jan/2010:08:21:57 :: 26532] asked to stop immediately
+[12/Jan/2010:08:21:59 :: 26532] stopping after explicit exit
+[12/Jan/2010:08:21:57 :: 9490] asked to stop immediately
+[12/Jan/2010:08:21:59 :: 9490] stopping after explicit exit
+[12/Jan/2010:08:22:19 :: 28486] starting
+[12/Jan/2010:08:22:27 :: 28539] starting
+[12/Jan/2010:08:24:16 :: 32479] starting
+[12/Jan/2010:08:24:19 :: 32482] starting
+[12/Jan/2010:08:40:18 :: 32482] asked to stop immediately
+[12/Jan/2010:08:40:18 :: 32482] stopping after explicit exit
+[12/Jan/2010:08:40:18 :: 32479] asked to stop immediately
+[12/Jan/2010:08:40:18 :: 32479] stopping after explicit exit
+[12/Jan/2010:08:47:19 :: 30128] starting
+[12/Jan/2010:08:59:03 :: 13463] starting
+[12/Jan/2010:09:10:53 :: 13463] asked to stop immediately
+[12/Jan/2010:09:10:53 :: 13463] stopping after explicit exit
+[12/Jan/2010:09:10:53 :: 30128] asked to stop immediately
+[12/Jan/2010:09:10:53 :: 30128] stopping after explicit exit
+[12/Jan/2010:09:29:31 :: 21534] starting
+[12/Jan/2010:14:26:25 :: 19758] starting
+[12/Jan/2010:14:26:45 :: 19869] starting
+[12/Jan/2010:14:47:26 :: 19758] asked to stop immediately
+[12/Jan/2010:14:47:26 :: 19758] stopping after explicit exit
+[12/Jan/2010:14:47:26 :: 19869] asked to stop immediately
+[12/Jan/2010:14:47:26 :: 19869] stopping after explicit exit
+[12/Jan/2010:14:49:53 :: 23776] starting
+[12/Jan/2010:14:49:59 :: 23841] starting
+[12/Jan/2010:14:55:36 :: 23776] asked to stop immediately
+[12/Jan/2010:14:55:36 :: 23841] asked to stop immediately
+[12/Jan/2010:14:55:36 :: 23776] stopping after explicit exit
+[12/Jan/2010:14:55:36 :: 23841] stopping after explicit exit
+[12/Jan/2010:14:58:52 :: 3298] starting
+[12/Jan/2010:15:02:44 :: 9660] starting
+[12/Jan/2010:15:15:58 :: 3298] asked to stop immediately
+[12/Jan/2010:15:15:58 :: 3298] stopping after explicit exit
+[12/Jan/2010:15:15:58 :: 9660] asked to stop immediately
+[12/Jan/2010:15:15:58 :: 9660] stopping after explicit exit
+[12/Jan/2010:16:14:44 :: 26366] starting
+[12/Jan/2010:16:14:49 :: 26481] starting
+[12/Jan/2010:16:21:20 :: 26366] asked to stop immediately
+[12/Jan/2010:16:21:20 :: 26481] asked to stop immediately
+[12/Jan/2010:16:21:20 :: 26366] stopping after explicit exit
+[12/Jan/2010:16:21:20 :: 26481] stopping after explicit exit
+[12/Jan/2010:16:29:11 :: 5734] starting
+[12/Jan/2010:16:29:16 :: 5829] starting
+[12/Jan/2010:16:35:38 :: 5734] asked to stop immediately
+[12/Jan/2010:16:35:38 :: 5734] stopping after explicit exit
+[12/Jan/2010:16:35:38 :: 5829] asked to stop immediately
+[12/Jan/2010:16:35:38 :: 5829] stopping after explicit exit
+[12/Jan/2010:16:39:17 :: 1756] starting
+[12/Jan/2010:16:39:22 :: 8159] starting
+[12/Jan/2010:17:10:15 :: 1756] asked to stop immediately
+[12/Jan/2010:17:10:15 :: 1756] stopping after explicit exit
+[12/Jan/2010:17:10:15 :: 8159] asked to stop immediately
+[12/Jan/2010:17:10:15 :: 8159] stopping after explicit exit
+[12/Jan/2010:19:38:04 :: 19468] starting
+[12/Jan/2010:19:38:20 :: 19813] starting
+[12/Jan/2010:19:45:24 :: 19468] asked to stop immediately
+[12/Jan/2010:19:45:24 :: 19468] stopping after explicit exit
+[12/Jan/2010:19:45:24 :: 19813] asked to stop immediately
+[12/Jan/2010:19:45:24 :: 19813] stopping after explicit exit
+[12/Jan/2010:20:19:38 :: 7571] starting
+[12/Jan/2010:20:20:57 :: 11381] starting
+[12/Jan/2010:20:28:22 :: 7571] asked to stop immediately
+[12/Jan/2010:20:28:22 :: 11381] asked to stop immediately
+[12/Jan/2010:20:28:22 :: 7571] stopping after explicit exit
+[12/Jan/2010:20:28:22 :: 11381] stopping after explicit exit
+[12/Jan/2010:20:57:54 :: 9305] starting
+[12/Jan/2010:20:58:06 :: 9490] starting
+[12/Jan/2010:21:07:06 :: 9305] asked to stop immediately
+[12/Jan/2010:21:07:06 :: 9490] asked to stop immediately
+[12/Jan/2010:21:07:06 :: 9305] stopping after explicit exit
+[12/Jan/2010:21:07:06 :: 9490] stopping after explicit exit
+[12/Jan/2010:21:09:56 :: 32326] starting
+[12/Jan/2010:21:10:13 :: 32339] starting
+[12/Jan/2010:21:17:19 :: 32326] asked to stop immediately
+[12/Jan/2010:21:17:19 :: 32326] stopping after explicit exit
+[12/Jan/2010:21:17:19 :: 32339] asked to stop immediately
+[12/Jan/2010:21:17:19 :: 32339] stopping after explicit exit
+[12/Jan/2010:21:18:29 :: 14032] starting
+[12/Jan/2010:23:32:47 :: 11749] starting
+[12/Jan/2010:23:34:19 :: 14032] asked to stop immediately
+[12/Jan/2010:23:34:19 :: 14032] stopping after explicit exit
+[13/Jan/2010:08:48:52 :: 26364] starting
+[13/Jan/2010:08:48:57 :: 26454] starting
+[13/Jan/2010:09:04:30 :: 26454] asked to stop immediately
+[13/Jan/2010:09:04:30 :: 26364] asked to stop immediately
+[13/Jan/2010:09:04:30 :: 26454] stopping after explicit exit
+[13/Jan/2010:09:04:30 :: 26364] stopping after explicit exit
+[13/Jan/2010:16:31:16 :: 1466] starting
+[13/Jan/2010:20:33:40 :: 18311] starting
+[13/Jan/2010:20:34:39 :: 19868] starting
+[13/Jan/2010:20:41:18 :: 18311] asked to stop immediately
+[13/Jan/2010:20:41:18 :: 18311] stopping after explicit exit
+[13/Jan/2010:20:41:18 :: 19868] asked to stop immediately
+[13/Jan/2010:20:41:18 :: 19868] stopping after explicit exit
+[13/Jan/2010:23:50:25 :: 23864] starting
+[13/Jan/2010:23:50:41 :: 23888] starting
+[13/Jan/2010:23:57:39 :: 23864] asked to stop immediately
+[13/Jan/2010:23:57:39 :: 23888] asked to stop immediately
+[13/Jan/2010:23:57:39 :: 23864] stopping after explicit exit
+[13/Jan/2010:23:57:39 :: 23888] stopping after explicit exit
+[14/Jan/2010:02:14:07 :: 26239] starting
+[14/Jan/2010:02:14:07 :: 26240] starting
+[14/Jan/2010:02:21:26 :: 26239] asked to stop immediately
+[14/Jan/2010:02:21:26 :: 26240] asked to stop immediately
+[14/Jan/2010:02:21:26 :: 26239] stopping after explicit exit
+[14/Jan/2010:02:21:26 :: 26240] stopping after explicit exit
+[15/Jan/2010:01:27:17 :: 20146] starting
+[15/Jan/2010:01:27:36 :: 21604] starting
+[15/Jan/2010:01:34:52 :: 20146] asked to stop immediately
+[15/Jan/2010:01:34:52 :: 21604] asked to stop immediately
+[15/Jan/2010:01:34:52 :: 20146] stopping after explicit exit
+[15/Jan/2010:01:34:52 :: 21604] stopping after explicit exit
+[15/Jan/2010:01:35:55 :: 30139] starting
+[15/Jan/2010:01:35:55 :: 30140] starting
+[15/Jan/2010:01:42:58 :: 30139] asked to stop immediately
+[15/Jan/2010:01:42:58 :: 30139] stopping after explicit exit
+[15/Jan/2010:01:42:58 :: 30140] asked to stop immediately
+[15/Jan/2010:01:42:58 :: 30140] stopping after explicit exit
+[15/Jan/2010:10:41:58 :: 11742] starting
+[15/Jan/2010:10:42:01 :: 11774] starting
+[15/Jan/2010:10:51:02 :: 11774] asked to stop immediately
+[15/Jan/2010:10:51:02 :: 11774] stopping after explicit exit
+[15/Jan/2010:10:51:02 :: 11742] asked to stop immediately
+[15/Jan/2010:10:51:02 :: 11742] stopping after explicit exit
+[15/Jan/2010:13:37:30 :: 7969] starting
+[15/Jan/2010:13:37:30 :: 7968] starting
+[15/Jan/2010:13:54:47 :: 7968] asked to stop immediately
+[15/Jan/2010:13:54:47 :: 7968] stopping after explicit exit
+[15/Jan/2010:14:00:28 :: 5290] starting
+[15/Jan/2010:14:17:08 :: 5290] asked to stop immediately
+[15/Jan/2010:14:17:08 :: 5290] stopping after explicit exit
+[15/Jan/2010:14:17:08 :: 7969] asked to stop immediately
+[15/Jan/2010:14:17:08 :: 7969] stopping after explicit exit
+[15/Jan/2010:14:19:47 :: 28290] starting
+[15/Jan/2010:14:19:50 :: 28300] starting
+[15/Jan/2010:14:48:14 :: 12229] starting
+[15/Jan/2010:14:48:55 :: 13429] starting
+[15/Jan/2010:15:30:25 :: 12229] asked to stop immediately
+[15/Jan/2010:15:30:25 :: 13429] asked to stop immediately
+[15/Jan/2010:15:30:25 :: 12229] stopping after explicit exit
+[15/Jan/2010:15:30:25 :: 13429] stopping after explicit exit
+[15/Jan/2010:15:37:48 :: 9419] starting
+[15/Jan/2010:15:38:20 :: 9825] starting
+[15/Jan/2010:15:44:43 :: 9419] asked to stop immediately
+[15/Jan/2010:15:44:43 :: 9419] stopping after explicit exit
+[15/Jan/2010:15:44:43 :: 9825] asked to stop immediately
+[15/Jan/2010:15:44:43 :: 9825] stopping after explicit exit
+[15/Jan/2010:16:01:23 :: 6067] starting
+[15/Jan/2010:16:01:29 :: 7190] starting
+[15/Jan/2010:16:15:20 :: 7190] asked to stop immediately
+[15/Jan/2010:16:15:20 :: 7190] stopping after explicit exit
+[15/Jan/2010:16:15:20 :: 6067] asked to stop immediately
+[15/Jan/2010:16:15:20 :: 6067] stopping after explicit exit
+[15/Jan/2010:16:43:27 :: 28072] starting
+[15/Jan/2010:16:44:19 :: 28399] starting
+[15/Jan/2010:16:56:06 :: 28399] asked to stop immediately
+[15/Jan/2010:16:56:06 :: 28399] stopping after explicit exit
+[15/Jan/2010:16:56:06 :: 28072] asked to stop immediately
+[15/Jan/2010:16:56:06 :: 28072] stopping after explicit exit
+[15/Jan/2010:21:15:05 :: 3283] starting
+[15/Jan/2010:21:15:16 :: 3684] starting
+[15/Jan/2010:21:23:40 :: 3684] asked to stop immediately
+[15/Jan/2010:21:23:40 :: 3684] stopping after explicit exit
+[15/Jan/2010:21:23:40 :: 3283] asked to stop immediately
+[15/Jan/2010:21:23:40 :: 3283] stopping after explicit exit
+[16/Jan/2010:09:46:45 :: 31866] starting
+[16/Jan/2010:09:46:51 :: 31895] starting
+[16/Jan/2010:09:53:54 :: 31866] asked to stop immediately
+[16/Jan/2010:09:53:54 :: 31895] asked to stop immediately
+[16/Jan/2010:09:53:54 :: 31866] stopping after explicit exit
+[16/Jan/2010:09:53:54 :: 31895] stopping after explicit exit
+[16/Jan/2010:18:49:50 :: 32703] starting
+[17/Jan/2010:10:36:51 :: 30532] starting
+[17/Jan/2010:10:36:58 :: 30633] starting
+[17/Jan/2010:10:43:54 :: 30633] asked to stop immediately
+[17/Jan/2010:10:43:54 :: 30633] stopping after explicit exit
+[17/Jan/2010:10:43:54 :: 30532] asked to stop immediately
+[17/Jan/2010:10:43:54 :: 30532] stopping after explicit exit
+[18/Jan/2010:09:10:32 :: 26252] starting
+[18/Jan/2010:09:10:38 :: 26272] starting
+[18/Jan/2010:09:16:49 :: 26252] asked to stop immediately
+[18/Jan/2010:09:16:49 :: 26252] stopping after explicit exit
+[18/Jan/2010:09:16:49 :: 26272] asked to stop immediately
+[18/Jan/2010:09:16:49 :: 26272] stopping after explicit exit
+[18/Jan/2010:09:33:35 :: 24516] starting
+[18/Jan/2010:09:33:41 :: 24536] starting
+[18/Jan/2010:09:41:19 :: 24536] asked to stop immediately
+[18/Jan/2010:09:41:19 :: 24536] stopping after explicit exit
+[18/Jan/2010:09:41:19 :: 24516] asked to stop immediately
+[18/Jan/2010:09:41:19 :: 24516] stopping after explicit exit
+[19/Jan/2010:11:02:53 :: 30545] starting
+[19/Jan/2010:11:03:03 :: 30616] starting
+[19/Jan/2010:11:10:13 :: 30545] asked to stop immediately
+[19/Jan/2010:11:10:13 :: 30545] stopping after explicit exit
+[19/Jan/2010:11:10:13 :: 30616] asked to stop immediately
+[19/Jan/2010:11:10:13 :: 30616] stopping after explicit exit
+[21/Jan/2010:16:30:39 :: 30152] starting
+[21/Jan/2010:16:30:49 :: 30456] starting
+[21/Jan/2010:16:41:13 :: 30152] asked to stop immediately
+[21/Jan/2010:16:41:13 :: 30152] stopping after explicit exit
+[21/Jan/2010:16:41:13 :: 30456] asked to stop immediately
+[21/Jan/2010:16:41:13 :: 30456] stopping after explicit exit
+[22/Jan/2010:01:12:42 :: 14259] starting
+[22/Jan/2010:01:13:00 :: 15376] starting
+[22/Jan/2010:01:18:52 :: 14259] asked to stop immediately
+[22/Jan/2010:01:18:52 :: 14259] stopping after explicit exit
+[22/Jan/2010:18:04:08 :: 16241] starting
+[23/Jan/2010:08:40:20 :: 28297] starting
+[24/Jan/2010:07:58:37 :: 23812] starting
+[24/Jan/2010:07:58:45 :: 23873] starting
+[24/Jan/2010:08:07:12 :: 23873] asked to stop immediately
+[24/Jan/2010:08:07:12 :: 23873] stopping after explicit exit
+[24/Jan/2010:08:07:12 :: 23812] asked to stop immediately
+[24/Jan/2010:08:07:12 :: 23812] stopping after explicit exit
+[24/Jan/2010:08:08:37 :: 3330] starting
+[24/Jan/2010:08:11:39 :: 7555] starting
+[24/Jan/2010:08:25:33 :: 7555] asked to stop immediately
+[24/Jan/2010:08:25:33 :: 7555] stopping after explicit exit
+[24/Jan/2010:20:51:34 :: 14112] starting
+[24/Jan/2010:20:51:46 :: 14230] starting
+[24/Jan/2010:21:07:42 :: 14230] asked to stop immediately
+[24/Jan/2010:21:07:42 :: 14230] stopping after explicit exit
+[24/Jan/2010:21:07:42 :: 14112] asked to stop immediately
+[24/Jan/2010:21:07:42 :: 14112] stopping after explicit exit
+[24/Jan/2010:21:44:36 :: 29875] starting
+[24/Jan/2010:22:34:41 :: 12047] starting
+[24/Jan/2010:22:41:47 :: 29875] asked to stop immediately
+[24/Jan/2010:22:41:47 :: 29875] stopping after explicit exit
+[24/Jan/2010:23:32:07 :: 13628] starting
+[24/Jan/2010:23:34:54 :: 12047] asked to stop immediately
+[24/Jan/2010:23:34:54 :: 12047] stopping after explicit exit
+[25/Jan/2010:03:38:59 :: 5750] starting
+[25/Jan/2010:03:39:47 :: 6109] starting
+[25/Jan/2010:03:52:06 :: 6109] asked to stop immediately
+[25/Jan/2010:03:52:06 :: 6109] stopping after explicit exit
+[25/Jan/2010:03:52:06 :: 5750] asked to stop immediately
+[25/Jan/2010:03:52:06 :: 5750] stopping after explicit exit
+[26/Jan/2010:09:39:32 :: 13951] starting
+[26/Jan/2010:09:40:30 :: 16188] starting
+[26/Jan/2010:09:46:29 :: 13951] asked to stop immediately
+[26/Jan/2010:09:46:29 :: 13951] stopping after explicit exit
+[26/Jan/2010:09:46:29 :: 16188] asked to stop immediately
+[26/Jan/2010:09:46:29 :: 16188] stopping after explicit exit
+[28/Jan/2010:23:15:10 :: 28363] starting
+[29/Jan/2010:02:57:02 :: 1464] starting
+[29/Jan/2010:05:31:11 :: 22086] starting
+[29/Jan/2010:05:32:19 :: 1464] asked to stop immediately
+[29/Jan/2010:05:32:19 :: 1464] stopping after explicit exit
+[29/Jan/2010:05:33:03 :: 24008] starting
+[29/Jan/2010:05:41:15 :: 5320] starting
+[29/Jan/2010:05:41:59 :: 5622] starting
+[29/Jan/2010:05:42:11 :: 5957] starting
+[29/Jan/2010:05:42:17 :: 6016] starting
+[29/Jan/2010:05:50:34 :: 6016] asked to stop immediately
+[29/Jan/2010:05:50:34 :: 6016] stopping after explicit exit
+[29/Jan/2010:05:50:34 :: 5957] asked to stop immediately
+[29/Jan/2010:05:50:34 :: 5957] stopping after explicit exit
+[29/Jan/2010:05:51:11 :: 17606] starting
+[29/Jan/2010:05:51:16 :: 17661] starting
+[29/Jan/2010:06:00:47 :: 17606] asked to stop immediately
+[29/Jan/2010:06:00:47 :: 17606] stopping after explicit exit
+[29/Jan/2010:06:07:44 :: 9499] starting

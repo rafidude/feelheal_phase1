@@ -1,0 +1,31 @@
+var arrQuote=new Array()
+var arrAuth=new Array();
+
+arrQuote[0] = "&quot;This is the central principle of meditation: we become what we meditate on.&quot;";
+arrQuote[1] = "&quot;The method of meditation presented here allows you to take the ideals you respond to and gradually, gracefully, make them part of your character and your life.&quot;";
+arrQuote[2] = "&quot;We all need joy, and we can all receive joy in only one way, by adding to the joy of others.&quot;";
+arrQuote[3] = "&quot;The widest possibilities for spiritual growth lie in the give-and-take of everyday relationships.&quot;";
+arrQuote[4] = "&quot;The capacity to be patient, to bear with others through thick and thin, is within the reach of anyone.&quot;";
+arrQuote[5] = "&quot;By virtue of being human, each of us has the capacity to choose, to change, to grow.&quot;";
+
+arrAuth[0] = "EAKNATH EASWARAN";
+arrAuth[1] = "EAKNATH EASWARAN";
+arrAuth[2] = "EAKNATH EASWARAN";
+arrAuth[3] = "EAKNATH EASWARAN";
+arrAuth[4] = "EAKNATH EASWARAN";
+arrAuth[5] = "EAKNATH EASWARAN";
+
+
+
+
+function ChangeText()
+{
+    var numQuote = arrQuote.length;
+    var whichQuotation=Math.floor(Math.random()*numQuote);
+    var quote = document.getElementById("quoteText");
+    quote.innerHTML = (arrQuote[whichQuotation]);
+    var author = document.getElementById("authorText");
+    author.innerHTML = (arrAuth[whichQuotation]);
+}
+
+window.onload=ChangeText;

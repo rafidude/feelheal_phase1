@@ -1,0 +1,22 @@
+
+
+<p><b>Name:</b> <%= @content_block.name %></p>
+
+<p><b>P Source:</b> <%= @content_block.p_source %></p>
+<p><b>P Title:</b> <%= @content_block.p_title %></p>
+<p><b>P Passage:</b> <%= @content_block.p_passage %></p>
+<p><b>P Source Note:</b> <%= @content_block.p_source_note %></p>
+
+<% if @content_block.ecard != "" %>
+<% @ecard=Attachment.find(@content_block.ecard.to_i)%>
+<p><b>E Card:</b> <%= link_to @ecard.file_path, @ecard.file_path  %></p>
+<% else %>
+<p><b>E Card:</b> Not Selected</p>
+<% end %>
+
+<% if @content_block.audio != "" %>
+<% @audio=Attachment.find(@content_block.audio.to_i) if @content_block.audio != "" %>
+<p><b>Audio:</b> <%= link_to @audio.file_path, @audio.file_path  %></p>
+<% else %>
+<p><b>Audio:</b> Not Selected</p>
+<% end %>

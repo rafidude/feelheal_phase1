@@ -1,0 +1,28 @@
+# Logfile created on Tue Jan 05 22:27:38 -0800 2010 by /
+[01/05/10 22:27:38 -0800 magnus.server0571.info (32186)] INFO : Web container: mongrel
+[01/05/10 22:27:38 -0800 magnus.server0571.info (32186)] INFO : Transaction tracing threshold is 2.0 seconds.
+[01/05/10 22:27:38 -0800 magnus.server0571.info (32186)] INFO : New Relic RPM Agent 2.9.9 Initialized: pid = 32186
+[01/05/10 22:27:38 -0800 magnus.server0571.info (32186)] INFO : Agent Log found in /home/fedenac/rails/easwaran_latest/easwaran_website/log/newrelic_agent.log
+[01/05/10 22:27:38 -0800 magnus.server0571.info (32186)] INFO : Using /proc/$$/status for reading process memory.
+[01/05/10 22:27:43 -0800 magnus.server0571.info (32186)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/05/10 22:27:43 -0800 magnus.server0571.info (32186)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/05/10 22:27:43 -0800 magnus.server0571.info (32186)] INFO : Connected to NewRelic Service at collector0.newrelic.com:80
+[01/05/10 22:27:43 -0800 magnus.server0571.info (32186)] INFO : Reporting performance data every 60 seconds.
+[01/06/10 21:59:24 -0800 magnus.server0571.info (12003)] INFO : Web container: mongrel
+[01/06/10 21:59:25 -0800 magnus.server0571.info (12003)] INFO : Transaction tracing threshold is 2.0 seconds.
+[01/06/10 21:59:25 -0800 magnus.server0571.info (12003)] INFO : New Relic RPM Agent 2.9.9 Initialized: pid = 12003
+[01/06/10 21:59:25 -0800 magnus.server0571.info (12003)] INFO : Agent Log found in /home/fedenac/rails/easwaran_latest/easwaran_website/log/newrelic_agent.log
+[01/06/10 21:59:25 -0800 magnus.server0571.info (12003)] INFO : Using /proc/$$/status for reading process memory.
+[01/06/10 21:59:30 -0800 magnus.server0571.info (12003)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/06/10 21:59:30 -0800 magnus.server0571.info (12003)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/06/10 21:59:30 -0800 magnus.server0571.info (12003)] INFO : Connected to NewRelic Service at collector0.newrelic.com:80
+[01/06/10 21:59:30 -0800 magnus.server0571.info (12003)] INFO : Reporting performance data every 60 seconds.
+[01/07/10 03:05:26 -0800 magnus.server0571.info (28171)] INFO : Web container: mongrel
+[01/07/10 03:05:26 -0800 magnus.server0571.info (28171)] INFO : Transaction tracing threshold is 2.0 seconds.
+[01/07/10 03:05:26 -0800 magnus.server0571.info (28171)] INFO : New Relic RPM Agent 2.9.9 Initialized: pid = 28171
+[01/07/10 03:05:26 -0800 magnus.server0571.info (28171)] INFO : Agent Log found in /home/fedenac/rails/easwaran_latest/easwaran_website/log/newrelic_agent.log
+[01/07/10 03:05:26 -0800 magnus.server0571.info (28171)] INFO : Using /proc/$$/status for reading process memory.
+[01/07/10 03:05:31 -0800 magnus.server0571.info (28171)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/07/10 03:05:31 -0800 magnus.server0571.info (28171)] WARN : DNS Error caching IP address: No such file or directory - /etc/hosts
+[01/07/10 03:05:31 -0800 magnus.server0571.info (28171)] INFO : Connected to NewRelic Service at collector0.newrelic.com:80
+[01/07/10 03:05:32 -0800 magnus.server0571.info (28171)] INFO : Reporting performance data every 60 seconds.

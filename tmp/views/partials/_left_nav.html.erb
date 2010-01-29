@@ -1,0 +1,85 @@
+<div class="span-2">
+  <div class="leftnav">
+    <!-- Search Button BEGIN -->
+
+<td>
+<div style="border-width:0px;border-color:#aaaaaa;border-style:solid;font-size:1px;width:8px;height:7px;margin-bottom:5px;margin-top:1px;float:left;margin-right:5px;"></div>
+</td>
+<td>
+<div class="searchbox">
+<form id="searchbox_012731194177002922446:i43evk1prd4" action="http://www.easwaran.org/page/130">
+  <input type="hidden" name="cx" value="012731194177002922446:i43evk1prd4" />
+  <input type="hidden" name="cof" value="FORID:11" />
+  <input type="text" name="q" size="15" style="height:10px" /><!-- <input type="submit" name="sa" value="Search" />-->
+</form>
+</div>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_012731194177002922446%3Ai43evk1prd4"></script>
+</td>
+<!-- Search Button END -->
+
+
+<!--  Language select begin  -->
+<% @languages = Page.find(:all, :select=>"DISTINCT language") %>
+
+
+
+<form action="" method="post" name="languageform" id="languageform">
+	<img src="<?=$this->getThemePath()?>/images/flags/flag_us.png" class="img-navflag" name="flag_img"/>
+	<select id="lang_user" onchange="javascript:processCookie();" name="lang_user" style="border: 0pt none; width: 125px; color: black; font-weight: bold; text-transform: none; font-size: 14px; letter-spacing: 1pt; padding:10px 0 10px 0">
+      <% @languages.each do |l| %>
+        <option value="<%= l.language %>"><%= l.language %></option>
+      <% end %>
+	</select>
+
+	<script type="text/javascript" language="javascript">
+		var flag_img_arr=new Array();
+		flag_img_arr[0]="<?=$this->getThemePath()?>/images/flags/flag_us.png"
+		flag_img_arr[1]="<?=$this->getThemePath()?>/images/flags/flag_germany.png"
+		flag_img_arr[2]="<?=$this->getThemePath()?>/images/flags/flag_spain.png"
+		flag_img_arr[3]="<?=$this->getThemePath()?>/images/flags/flag_france.png"
+		flag_img_arr[4]="<?=$this->getThemePath()?>/images/flags/flag_italy.png"
+		flag_img_arr[5]="<?=$this->getThemePath()?>/images/flags/flag_netherlands.png"
+		tl = getCookie("lang_cookie");
+		for(i=0;i<6;i++){
+			if(tl==document.languageform.lang_user.options[i].value){
+				document.images.flag_img.src=flag_img_arr[i];
+				document.getElementById("lang_user").selectedIndex=i;
+				}
+		}//for
+	</script>
+</form>
+<!-- Language select end   -->
+
+
+<!-- AddThis Button BEGIN -->
+
+<script type="text/javascript">
+var addthis_config = {
+	ui_language: "en",
+	username: "nilgiripress"};
+</script>
+
+<div style="margin-bottom:10px;margin-left:4px;float:left;">
+
+<a href="http://www.addthis.com/bookmark.php?v=250"
+    class="addthis_button"><img
+    src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
+    width="120" height="14" border="0" alt="Share" /></a>
+
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+
+</div>
+
+<!-- AddThis Button END -->
+
+<div class="random-image-home">
+<script language="JavaScript" type="text/javascript" src="/scripts/home_random_image.js"></script>
+</div>
+
+<div id="quote_content">
+<em><div id="quoteText"></div></em>
+<a href="/"><div id="authorText"></div></a>
+</div>
+
+  </div><!-- left nav ends -->
+</div><!-- span-2 ends -->

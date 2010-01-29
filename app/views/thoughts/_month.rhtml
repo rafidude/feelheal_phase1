@@ -1,0 +1,42 @@
+<table class="calendar" cellspacing="0" cellpadding="0">
+<tbody>
+<tr class="date-row">
+<th class='header'>&nbsp;</th>
+<th class='header'><%= link_to_remote "<<", :url => {:controller=>"thoughts",:action => "new_calendar"},:with   => "'new_month=#{@show_month.month-1}'+ '&passed_date=#{@show_month}'"%></th>
+<th colspan='3' class='header'><%= @show_month.strftime('%B %Y') %></th>
+<th class='header'><%= link_to_remote ">>", :url => {:controller=>"thoughts",:action => "new_calendar"},:with   => "'new_month=#{@show_month.month+1}'+ '&passed_date=#{@show_month}'"%></th>
+<th class='header'>&nbsp;</th>
+</tr>
+<tr>
+<% @days_of_week= ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"] %>
+<% @days_of_week.each do |d| %>
+  <th style="height:30px;"><%= d %></th>
+<% end %>
+</tr>
+<% (1..6).each do |r|%>
+<tr class="date-row">
+  <% (1..7).each do |c|%>
+    <td>
+      <% dt = c - @start_date_day + (r-1)*7 %>
+      <% unless (r == 1 and c <= @start_date_day) %>
+        <% unless dt > @last_day.day %>
+            <% unless dt == Date.today.day %>
+            <%= link_to_remote dt, :url => {:controller=>"thoughts",:action => "quote"},:with   => "'month=#{@show_month.month}' + '&day=#{dt}'"%>
+           <% else %>
+        <div style="color:red;font-weight:bold;"><%= dt %></div>
+           <% end %>
+        <% end %>
+      <% end %>
+    </td>
+  <% end %>
+</tr>
+<% end %>
+<tr class="date-row">
+  <td class="footer" colspan="7">
+    <%= link_to_remote "Today is #{@today.strftime('%d %B %Y')}",:url=>{:controller=>"thoughts",:action=>"quote"},:with => "'month=#{@today.month}' + '&day=#{@today.day}'" %>
+  </td>
+</tr>
+</table>
+
+
+

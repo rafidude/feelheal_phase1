@@ -1,0 +1,47 @@
+<playlist version="1" xmlns="http://xspf.info/ns/0/">
+	<trackList>
+	
+	
+		<track>
+			<title>Living in Peace</title>
+			<annotation>Train your attention, and be at peace with everyone.</annotation>
+			<creator>http://www.easwaran.info/page/217</creator>
+			<location>http://www.easwaran.info/Content/Video/Clips/LivingInPeace.flv</location>
+			<image>http://www.easwaran.info/images/flashplayer/09 Regional_00009.jpg</image>
+			<duration>174</duration>
+		</track>
+	
+	
+	
+		<track>
+			<title>The Forest of the Mind</title>
+			<annotation>Comments on some evocative lines of poetry by the Indian mystic Kabir.</annotation>
+			<creator>http://www.easwaran.info/page/217</creator>
+			<location>http://www.easwaran.info/Content/Video/Clips/01Ba Kabir.flv</location>
+			<image>http://www.easwaran.info/images/flashplayer/01Ba Kabir_00022.jpg</image>
+			<duration>203</duration>
+		</track>
+	
+		
+		<track>
+			<title>Gandhi on the Gita</title>
+			<annotation>For Gandhi, the Bhagavad Gita offered strength and guidance in every difficulty.</annotation>
+			<creator>http://www.easwaran.info/page/217</creator>
+			<location>http://www.easwaran.info/Content/Video/Clips/20aASourceofInnerPeace.flv</location>
+			<image>http://www.easwaran.info/images/flashplayer/20ASourceofInnerPeace_00018.jpg</image>
+			<duration>192</duration>
+		</track>
+	
+		<track>
+			<title>The Obedient Mind</title>
+			<annotation>Easwaran learned to tell his mind what to think - the secret to an effective life.</annotation>
+			<creator>http://www.easwaran.info/page/217</creator>
+			<location>http://www.easwaran.info/Content/Video/Clips/homeclip4b.flv</location>
+			<image>http://www.easwaran.info/images/flashplayer/homeclip4b_00010.jpg</image>
+			<duration>180</duration>
+		</track>
+		
+			
+		</trackList>
+</playlist>
+

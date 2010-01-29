@@ -1,0 +1,869 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%= stylesheet_link_tag "/theme/styles/style_new" %>
+<script type="text/javascript" src="/scripts/home_random_quotes.js"></script>
+
+
+
+<script language="javascript" type="text/javascript">
+<!--
+function popPassage(id) {
+	newwindow=window.open('/passages/content/?passId='+id,'Passage','height=620,width=530,scrollbars=yes,menubar=yes,resizable=yes,status=yes,toolbar=yes,left=260,top=84')
+	if (window.focus) {newwindow.focus()}
+		return false;
+}
+
+//-->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <title><%= page_title %></title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <%= yield :html_head %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <%= cms_toolbar %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <%= render :partial => "partials/header"%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container ruleoutside">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <%= render :partial => "partials/left_nav"%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="span-12 last">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="title">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <%= container :title %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div><!-- title ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="textcontainer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="span-12 last">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="text">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <h3 class="sans"><%= container :head_top %></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <p class="sans"><%= container :subhead_top %></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <p class="sans"><%= container :content_top %></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div><!-- text ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div><!-- left column ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div> <!-- textcontainer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="textcontainer rule3">
+
+
+
+
+
+
+
+<% @passage_source = Passage.find(:all, :group=>"p_source",:order=>"p_source DESC",:select=>"p_source")  %>
+<% @passage_source_num_rows = @passage_source.size %>
+<% @num_cols = 3 %>
+<% @extra_item = @passage_source_num_rows%@num_cols %>
+<% if @extra_item == 0 %>
+    <% @items_per_col = (@passage_source_num_rows/@num_cols).ceil %>
+    <% @items_in_col1 = @items_per_col %>
+    <% @items_in_col2 = @items_per_col %>
+    <% @items_in_col3 = @items_per_col %>
+<% else %>
+  <% @items_per_col = (@passage_source_num_rows/@num_cols).floor %>
+  <% if @extra_item == 1 %>
+    <% @items_in_col1 = @items_per_col %>
+    <% @items_in_col2 = @items_per_col %>
+    <% @items_in_col3 = @items_per_col+1 %>
+  <% elsif @extra_item == 2 %>
+    <% @items_in_col1 = @items_per_col+1 %>
+    <% @items_in_col2 = @items_per_col+1 %>
+    <% @items_in_col3 = @items_per_col %>
+  <% end %>
+<% end %>
+
+
+
+
+
+
+<div class="span-4">
+  <% (1..@items_in_col1).each do |t| %>
+        <% @source = @passage_source[t-1].p_source %>
+
+        <div class="text">
+          <p class="passagesource"><%= @source %></p>
+          <% @title = Passage.find_all_by_p_source(@source) %>
+          <p class="passagetitle">
+          <% @title.each do |pt| %>
+<%= link_to pt.p_title,"#", :Onclick=>"popPassage(#{pt.id})" %>
+ <% unless pt.audio == "" %>
+              <a href="#" onclick="popPassage(<%=pt.id%> )"><img class="icon" src="/theme/images/volume_high.gif"></a>
+              <% end %>
+<br/>
+          <% end %>
+          </p>
+        </div>
+
+  <% end %>
+</div><!-- left column ends -->
+
+
+
+<div class="span-4">
+  <% (@items_in_col1+1..@items_in_col1+@items_in_col2).each do |t| %>
+        <% @source = @passage_source[t-1].p_source %>
+
+        <div class="text">
+          <p class="passagesource"><%= @source %></p>
+          <% @title = Passage.find_all_by_p_source(@source) %>
+          <p class="passagetitle">
+          <% @title.each do |pt| %>
+<%= link_to pt.p_title,"#", :Onclick=>"popPassage(#{pt.id})" %>
+ <% unless pt.audio == "" %>
+              <a href="#" onclick="popPassage(<%=pt.id%> )"><img class="icon" src="/theme/images/volume_high.gif"></a>
+              <% end %>
+<br/>
+          <% end %>
+          </p>
+        </div>
+
+  <% end %>
+</div><!-- left column ends -->
+
+
+<div class="span-4">
+  <% (@items_in_col1+@items_in_col2+1..@items_in_col1+@items_in_col2+@items_in_col3).each do |t| %>
+        <% @source = @passage_source[t-1].p_source %>
+
+        <div class="text">
+          <p class="passagesource"><%= @source %></p>
+          <% @title = Passage.find_all_by_p_source(@source) %>
+          <p class="passagetitle">
+          <% @title.each do |pt| %>
+<%= link_to pt.p_title,"#", :Onclick=>"popPassage(#{pt.id})" %>
+ <% unless pt.audio == "" %>
+              <a href="#" onclick="popPassage(<%=pt.id%> )"><img class="icon" src="/theme/images/volume_high.gif"></a>
+              <% end %>
+<br/>
+          <% end %>
+        </div>
+
+  <% end %>
+</div><!-- left column ends -->
+
+
+
+	</div> <!-- textcontainer ends -->
+
+
+	</div> <!-- span-12 last ends -->
+
+
+
+
+	</div> <!-- container ends -->
+
+
+
+<%= render :partial => "partials/footer"%>
+
+
+
+  </body>
+
+
+</html>
+
